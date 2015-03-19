@@ -8,14 +8,20 @@ header {
     height: 50px;
 }
 header {
+    padding-top:.5em;
     background-color: gray;
     color: white;
+}
+.nav {
+    margin-left:-.5em;
+    margin-right:-.75em;
+    margin-bottom:.5em;
+    background-color:#1b4292;
 }
 nav {
     display: block;
     width: 100%;
 }
-
 nav ul {
     margin: 0em;
     padding: 0em;
@@ -26,6 +32,7 @@ nav ul li {
 	float: left;
 	width: 18%;
 	padding: 0.5em;
+    text-align:center;
 }
 nav ul {
 	font-size: 1.25em;
